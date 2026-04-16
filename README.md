@@ -1,4 +1,4 @@
-\# Data-Driven Surface Generation
+# Data-Driven Surface Generation
 
 
 
@@ -6,15 +6,15 @@ This project explores how visual representations of brutalist architecture acros
 
 
 
-\## Structure
+## Structure
 
 
 
-\- notebooks: Jupyter notebooks for each stage
+- notebooks: Jupyter notebooks for each stage
 
-\- data: datasets (not included in repo)
+- data: datasets (not included in repo)
 
-\- outputs: generated results
+- outputs: generated results
 
-\- blender: 3D files and renders
+- blender: 3D files and renders
 
