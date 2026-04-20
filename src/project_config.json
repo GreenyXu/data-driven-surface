@@ -1,0 +1,17 @@
+{
+    "project_root": "D:\\Work\\Workspace\\Projects\\Python\\data-driven-surface",
+    "data_dir": "D:\\Work\\Workspace\\Projects\\Python\\data-driven-surface\\data",
+    "raw_literary_dir": "D:\\Work\\Workspace\\Projects\\Python\\data-driven-surface\\data\\raw\\literary_text",
+    "raw_images_dir": "D:\\Work\\Workspace\\Projects\\Python\\data-driven-surface\\data\\raw\\scraped_images",
+    "raw_ai_text_dir": "D:\\Work\\Workspace\\Projects\\Python\\data-driven-surface\\data\\raw\\ai_generated_text",
+    "raw_image_derived_dir": "D:\\Work\\Workspace\\Projects\\Python\\data-driven-surface\\data\\raw\\image_derived_data",
+    "cleaned_literary_dir": "D:\\Work\\Workspace\\Projects\\Python\\data-driven-surface\\data\\cleaned\\literary_text",
+    "processed_literary_dir": "D:\\Work\\Workspace\\Projects\\Python\\data-driven-surface\\data\\processed\\literary_text",
+    "outputs_dir": "D:\\Work\\Workspace\\Projects\\Python\\data-driven-surface\\outputs",
+    "output_figures_dir": "D:\\Work\\Workspace\\Projects\\Python\\data-driven-surface\\outputs\\figures",
+    "output_tables_dir": "D:\\Work\\Workspace\\Projects\\Python\\data-driven-surface\\outputs\\tables",
+    "output_mappings_dir": "D:\\Work\\Workspace\\Projects\\Python\\data-driven-surface\\outputs\\mappings",
+    "output_prompts_dir": "D:\\Work\\Workspace\\Projects\\Python\\data-driven-surface\\outputs\\prompts",
+    "output_generated_images_dir": "D:\\Work\\Workspace\\Projects\\Python\\data-driven-surface\\outputs\\generated_images",
+    "src_dir": "D:\\Work\\Workspace\\Projects\\Python\\data-driven-surface\\src"
+}
