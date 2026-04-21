@@ -1,114 +1,116 @@
 # =========================
+
 # Python
+
 # =========================
-__pycache__/
+
+**pycache**/
 *.pyc
 *.pyo
 *.pyd
 
 # =========================
+
 # Jupyter
+
 # =========================
+
 .ipynb_checkpoints/
 
 # =========================
+
 # OS files
+
 # =========================
+
 .DS_Store
 Thumbs.db
 
 # =========================
+
 # Environment / local config
+
 # =========================
+
 .env
 .venv/
 venv/
 
 # =========================
-# Generated data
-# Ignore contents but keep folder structure
-# =========================
 
-# raw
-data/raw/literary_text/*
-data/raw/scraped_images/*
-data/raw/ai_generated_text/*
-data/raw/image_derived_data/*
-
-!data/raw/literary_text/.gitkeep
-!data/raw/scraped_images/.gitkeep
-!data/raw/ai_generated_text/.gitkeep
-!data/raw/image_derived_data/.gitkeep
-
-# cleaned
-data/cleaned/literary_text/*
-data/cleaned/scraped_images/*
-data/cleaned/ai_generated_text/*
-data/cleaned/image_derived_data/*
-
-!data/cleaned/literary_text/.gitkeep
-!data/cleaned/scraped_images/.gitkeep
-!data/cleaned/ai_generated_text/.gitkeep
-!data/cleaned/image_derived_data/.gitkeep
-
-# processed
-data/processed/literary_text/*
-data/processed/scraped_images/*
-data/processed/ai_generated_text/*
-data/processed/image_derived_data/*
-
-!data/processed/literary_text/.gitkeep
-!data/processed/scraped_images/.gitkeep
-!data/processed/ai_generated_text/.gitkeep
-!data/processed/image_derived_data/.gitkeep
+# Raw data (large, ignore)
 
 # =========================
-# Outputs
-# =========================
-outputs/figures/*
-outputs/tables/*
-outputs/mappings/*
-outputs/prompts/*
-outputs/generated_images/*
 
-!outputs/figures/.gitkeep
-!outputs/tables/.gitkeep
-!outputs/mappings/.gitkeep
-!outputs/prompts/.gitkeep
-!outputs/generated_images/.gitkeep
+data/raw/**
+!data/raw/**/.gitkeep
 
 # =========================
-# Figures
+
+# Cleaned data (optional, usually ignore)
+
 # =========================
-figures/*
+
+data/cleaned/**
+!data/cleaned/**/.gitkeep
+
+# =========================
+
+# Processed data
+
+# Keep final CSVs, ignore heavy stuff
+
+# =========================
+
+# ignore heavy subfolders
+
+data/processed/images/**
+data/processed/embeddings/**
+
+# keep CSV outputs
+
+!data/processed/*.csv
+
+# keep structure
+
+!data/processed/**/.gitkeep
+
+# =========================
+
+# Outputs (generated)
+
+# =========================
+
+outputs/**
+!outputs/**/.gitkeep
+
+# =========================
+
+# Figures (optional)
+
+# =========================
+
+figures/**
 !figures/.gitkeep
 
 # =========================
+
 # Blender temp files
+
 # =========================
+
 *.blend1
 *.blend2
 
 # =========================
-# Optional: large archives or model weights
+
+# Model weights / large files
+
 # =========================
+
 *.pth
 *.pt
 *.ckpt
 *.safetensors
 *.onnx
 *.zip
-
-# raw images (too large)
-data/raw/images/*
-!data/raw/images/.gitkeep
-
-# processed images
-data/processed/images/*
-!data/processed/images/.gitkeep
-
-outputs/generated_images/*
-!outputs/generated_images/.gitkeep
-
-data/processed/embeddings/*
-!data/processed/embeddings/.gitkeep
