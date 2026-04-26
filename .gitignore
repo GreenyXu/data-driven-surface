@@ -1,116 +1,69 @@
-# =========================
-
+# ======================
 # Python
-
-# =========================
-
-**pycache**/
+# ======================
+__pycache__/
 *.pyc
 *.pyo
-*.pyd
-
-# =========================
 
 # Jupyter
-
-# =========================
-
 .ipynb_checkpoints/
 
-# =========================
-
-# OS files
-
-# =========================
-
+# OS
 .DS_Store
 Thumbs.db
 
-# =========================
+# ======================
+# DATA (核心控制)
+# ======================
 
-# Environment / local config
+# 保留结构，不提交大文件
+data/raw/audio/*
+data/raw/images/*
+data/raw/text/*
+data/raw/alice_models/*
+data/raw/alice_reference_images/*
 
-# =========================
+# 保留空目录结构
+!data/raw/audio/.gitkeep
+!data/raw/images/.gitkeep
+!data/raw/text/.gitkeep
+!data/raw/alice_models/.gitkeep
+!data/raw/alice_reference_images/.gitkeep
 
-.env
-.venv/
-venv/
+# ======================
+# 只保留处理后的“轻量数据”
+# ======================
 
-# =========================
+# 可选：如果csv也很大可以开
+# data/processed/*.csv
 
-# Raw data (large, ignore)
+# ======================
+# TouchDesigner（保留工程，忽略缓存/视频）
+# ======================
+touchdesigner/**/Backup/
+touchdesigner/**/*.mov
 
-# =========================
+# ======================
+# Blender输出（已转移到 outputs）
+# ======================
+blender/Output/
 
-data/raw/**
-!data/raw/**/.gitkeep
+# ======================
+# Outputs（只保留最终结果）
+# ======================
 
-# =========================
+# 视频只保留最终合成
+outputs/animation/video-wf1.mp4
+outputs/animation/video-wf2.mp4
+outputs/animation/video-wf3.mp4
+outputs/animation/3D_animation_combined.mp4
 
-# Cleaned data (optional, usually ignore)
+# 其他中间输出忽略
+outputs/renders/
+outputs/generated_images/
+outputs/plots/
 
-# =========================
-
-data/cleaned/**
-!data/cleaned/**/.gitkeep
-
-# =========================
-
-# Processed data
-
-# Keep final CSVs, ignore heavy stuff
-
-# =========================
-
-# ignore heavy subfolders
-
-data/processed/images/**
-data/processed/embeddings/**
-
-# keep CSV outputs
-
-!data/processed/*.csv
-
-# keep structure
-
-!data/processed/**/.gitkeep
-
-# =========================
-
-# Outputs (generated)
-
-# =========================
-
-outputs/**
-!outputs/**/.gitkeep
-
-# =========================
-
-# Figures (optional)
-
-# =========================
-
-figures/**
-!figures/.gitkeep
-
-# =========================
-
-# Blender temp files
-
-# =========================
-
-*.blend1
-*.blend2
-
-# =========================
-
-# Model weights / large files
-
-# =========================
-
-*.pth
-*.pt
-*.ckpt
-*.safetensors
-*.onnx
-*.zip
+# ======================
+# 临时文件
+# ======================
+structure.txt
