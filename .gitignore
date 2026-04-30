@@ -45,10 +45,12 @@ outputs/plots/
 outputs/animation/*.mp4
 
 # Report/render scratch space
+final_report/
 qa_render_case_report*/
 qa_render_case_report*_contact_sheet.png
 derived_report_figures/
 report_package/
+scripts/build_case_level_word_report.py
 ~$*.docx
 
 # Notebook/script backups
