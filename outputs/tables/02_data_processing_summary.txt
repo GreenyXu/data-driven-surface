@@ -1,0 +1,16 @@
+02 Data Processing Summary
+==============================
+
+Text raw count: 288
+Text cleaned count: 288
+
+Image raw count: 298
+Image cleaned count: 298
+
+Audio raw count: 271
+Audio cleaned count: 270
+
+Cleaned datasets saved to:
+..\..\data\cleaned\text\text_cleaned.csv
+..\..\data\cleaned\images\image_cleaned.csv
+..\..\data\cleaned\audio\audio_cleaned.csv

@@ -1,0 +1,3 @@
+method,n_clusters,silhouette_score
+basic_audio_descriptors,9,0.1990035013533655
+mfcc_features,9,0.10795694468553842

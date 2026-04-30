@@ -1,0 +1,4 @@
+dataset,quality_check,result
+text,"Whitespace normalisation, word-count validation, short-fragment check",288 valid text segments retained
+images,"File existence, image validity, resolution and aspect-ratio validation",298 valid image records retained
+audio,File existence and duration-based validation,270 valid audio samples retained

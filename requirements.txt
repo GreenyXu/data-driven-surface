@@ -1,0 +1,15 @@
+pandas
+numpy
+matplotlib
+seaborn
+scikit-learn
+sentence-transformers
+Pillow
+python-docx
+imageio
+imageio-ffmpeg
+moviepy
+librosa
+soundfile
+requests
+tqdm

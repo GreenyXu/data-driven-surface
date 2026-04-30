@@ -1,6 +1,4 @@
-# ======================
 # Python
-# ======================
 __pycache__/
 *.pyc
 *.pyo
@@ -12,68 +10,51 @@ __pycache__/
 .DS_Store
 Thumbs.db
 
-# ======================
-# DATA (核心控制)
-# ======================
+# Raw datasets and heavyweight source assets
+data/raw/audio/
+data/raw/images/
+data/raw/text/
+data/raw/alice_models/
+data/raw/alice_reference_images/
+data/raw/images_archive_*/
+data/raw/dataset_collection_summary.csv
 
-# 保留结构，不提交大文件
-data/raw/audio/*
-data/raw/images/*
-data/raw/text/*
-data/raw/alice_models/*
-data/raw/alice_reference_images/*
-
-# 保留空目录结构
+# Preserve raw-data folder placeholders if present
 !data/raw/audio/.gitkeep
 !data/raw/images/.gitkeep
 !data/raw/text/.gitkeep
 !data/raw/alice_models/.gitkeep
 !data/raw/alice_reference_images/.gitkeep
 
-# ======================
-# 只保留处理后的“轻量数据”
-# ======================
+# Large media and DCC files
+*.mp3
+*.wav
+*.blend
+*.blend1
 
-# 可选：如果csv也很大可以开
-# data/processed/*.csv
-
-# ======================
-# TouchDesigner（保留工程，忽略缓存/视频）
-# ======================
+# TouchDesigner and Blender runtime/cache outputs
 touchdesigner/**/Backup/
 touchdesigner/**/*.mov
-
-# ======================
-# Blender输出（已转移到 outputs）
-# ======================
+touchdesigner/final_pointcloud/audio/
 blender/Output/
 
-# ======================
-# Outputs（只保留最终结果）
-# ======================
-
-# 视频只保留最终合成
-outputs/animation/video-wf1.mp4
-outputs/animation/video-wf2.mp4
-outputs/animation/video-wf3.mp4
-outputs/animation/3D_animation_combined.mp4
-
-# 其他中间输出忽略
+# Intermediate outputs
 outputs/renders/
 outputs/generated_images/
 outputs/plots/
+outputs/animation/*.mp4
 
-# ======================
-# 临时文件
-# ======================
+# Report/render scratch space
+qa_render_case_report*/
+qa_render_case_report*_contact_sheet.png
+derived_report_figures/
+report_package/
+~$*.docx
+
+# Notebook/script backups
+notebooks/PART1/*_old.ipynb
+notebooks/PART1/*_v1.ipynb
+
+# Local inspection files
 structure.txt
-
-# large audio files
-data/raw/audio/
-touchdesigner/final_pointcloud/audio/
-
-*.mp3
-*.wav
-
-*.blend
-*.blend1
+replacements.txt

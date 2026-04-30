@@ -1,0 +1,4 @@
+dataset,raw_count,cleaned_count,removed_count,retention_rate
+text,288,288,0,1.0
+images,298,298,0,1.0
+audio,271,270,1,0.996309963099631

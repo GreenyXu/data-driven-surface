@@ -1,0 +1,6 @@
+dataset,method,feature_dimensions,design_role
+text,TF-IDF,300,interpretable keywords and themes
+text,all-MiniLM-L6-v2,384,semantic narrative similarity
+images,handcrafted_colour_size_features,35,"visual colour, texture and atmosphere"
+audio,basic_audio_descriptors,11,motion intensity and direct TD parameters
+audio,mfcc_features,26,sound texture and timbral grouping

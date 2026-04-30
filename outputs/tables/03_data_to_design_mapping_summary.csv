@@ -1,0 +1,6 @@
+dataset,processed_feature,design_translation
+Text,TF-IDF terms and sentence embeddings,Narrative themes and prompt generation
+Images,"Colour, size, aspect ratio and optional CLIP embeddings","Texture selection, visual atmosphere and object references"
+Audio,Basic audio descriptors and MFCCs,"Rhythm, instability and behavioural variation"
+Text + Images,Semantic and visual categories,Alice object selection and Wonderland scene construction
+Audio + Point Clouds,RMS / spectral / MFCC characteristics,"TouchDesigner point vibration, switching and deformation"

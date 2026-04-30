@@ -1,0 +1,2 @@
+method,n_clusters,silhouette_score
+handcrafted_colour_size_features,10,0.17099597274778175
