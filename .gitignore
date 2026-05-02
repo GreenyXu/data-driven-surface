@@ -54,6 +54,8 @@ scripts/build_case_level_word_report.py
 ~$*.docx
 
 # Notebook/script backups
+notebooks/Old/
+notebooks/old/
 notebooks/PART1/*_old.ipynb
 notebooks/PART1/*_v1.ipynb
 
